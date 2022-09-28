@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react';
+import Cart from '../Cart/Cart';
 import Exercise from '../Exercise/Exercise';
 import './Body.css';
 
 const Body = () => {
     const [exercises, setExercises] = useState([]);
-    const [profile, setProfile] = useState([]);    
+    const [profile, setProfile] = useState([]);
 
     useEffect(() => {
         fetch('fakeDB.json')
@@ -16,7 +17,7 @@ const Body = () => {
         console.log(exercise);
 
         const newProfile = [...profile, exercise];
-        setProfile(newProfile); 
+        setProfile(newProfile);
     }
 
     return (
@@ -26,14 +27,13 @@ const Body = () => {
                     exercises.map(exercise => <Exercise
                         key={exercise.id}
                         exercise={exercise}
-                        handleClick ={handleClick}
+                        handleClick={handleClick}
                     ></Exercise>)
-                    
+
                 }
             </div>
-            <div className="profile-container me-3 text-center p-4 rounded">
-                <h4>Profile</h4>
-                <p>Selected Items: {profile.length}</p>
+            <div className="profile-container  text-center p-4 rounded">
+                <Cart profile={profile}></Cart>
             </div>
         </div>
     )
