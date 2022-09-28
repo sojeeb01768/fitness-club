@@ -1,0 +1,67 @@
+[
+    {
+        "id": "100a",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, tempore.",
+        "name": "Stretches",
+        "age": "24-30",
+        "img": "https://www.verywellfit.com/thmb/gcH4hEvma-NjfzR7nXTa5u3H3T0=/1500x1000/filters:no_upscale():max_bytes(150000):strip_icc()/QuadStretch_annotated-a919d0ebf9944d179c99c40d6d1831c2.jpg",
+        "time": "8min"
+    },
+    {
+        "id": "100b",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, tempore.",
+        "name": "Chest",
+        "age": "20-30",
+        "img": "https://www.mensjournal.com/wp-content/uploads/mf/dumbbell-bench-press-chest-weights-2-exercise_landscape.jpg?quality=86&strip=all",
+        "time": "9min"
+    },
+    {
+        "id": "100c",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, tempore.",
+        "name": "Biceps",
+        "age": "21-25",
+        "img": "https://manofmany.com/wp-content/uploads/2020/06/best-bicep-exercises.jpg",
+        "time": "7min"
+    },
+    {
+        "id": "100d",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, tempore.",
+        "name": "Back",
+        "age": "20-30",
+        "img": "https://www.mensjournal.com/wp-content/uploads/mf/muscular-back-1280.jpg?quality=86&strip=all",
+        "time": "10min"
+    },
+    {
+        "id": "100e",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, tempore.",
+        "name": "Legs",
+        "age": "22-31",
+        "img": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/healthy-lifestyle-exercising-and-people-concepts-royalty-free-image-1647617548.jpg",
+        "time": "6min"
+    },
+    {
+        "id": "100f",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, tempore.",
+        "name": "Triceps",
+        "age": "20-29",
+        "img": "https://assets.gqindia.com/photos/5cdc548278e364ceaf6fec78/master/pass/triceps-top-image.jpg",
+        "time": "4min"
+    },
+    {
+        "id": "100g",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, tempore.",
+        "name": "Shoulder",
+        "age": "18-29",
+        "img": "https://www.mensjournal.com/wp-content/uploads/2018/01/renegaderow.jpg?w=1200&quality=86&strip=all",
+        "time": "5min"
+    },
+    {
+        "id": "100h",
+        "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, tempore.",
+        "name": "Stomach",
+        "age": "20-29",
+        "img": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/homeworkouts-1583755389.jpg",
+        "time": "3min"
+    }
+   
+]

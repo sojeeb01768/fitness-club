@@ -1,0 +1,29 @@
+.body-container {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.exercise-card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin: 100px;
+}
+
+.profile-container{
+    background-color: rgb(223, 221, 221);
+    width: 300px;
+}
+
+
+@media screen and(max-width: 480px) {
+    .body-container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .exercise-card-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+}
