@@ -16,13 +16,13 @@
 }
 
 
-@media screen and(max-width: 480px) {
+@media screen and(max-width: 580px) {
     .body-container {
         display: grid;
         grid-template-columns: 1fr;
     }
     .exercise-card-container{
-        display: grid;
+        
         grid-template-columns: repeat(1,1fr);
     }
 

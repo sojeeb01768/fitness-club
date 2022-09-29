@@ -22,8 +22,11 @@ const Body = () => {
 
     return (
         <div className="body-container">
+            
             <div className="exercise-card-container">
+                
                 {
+                    
                     exercises.map(exercise => <Exercise
                         key={exercise.id}
                         exercise={exercise}
@@ -31,6 +34,7 @@ const Body = () => {
                     ></Exercise>)
 
                 }
+                
             </div>
             <div className="profile-container  text-center p-4 rounded">
                 <Cart profile={profile}></Cart>

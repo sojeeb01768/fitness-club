@@ -4,7 +4,9 @@ const Exercise = (props) => {
     const { exercise, handleClick } = props;
     const { id, name, age, img, time, description } = exercise;
     return (
+        
         <div className="">
+            
             <div className="card" style={{ width: "18rem" }}>
                 <img src={img} className=" card-img-top p-2" alt="" />
                 <div className="card-body">
