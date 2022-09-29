@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import logo from '../../image/logo.png'
 import './Cart.css';
 // toast
@@ -32,8 +32,13 @@ const Cart = (props) => {
     }
 
     const addToLocalStorage =(breaks) => {
-        localStorage.setItem('BreakTime', breaks)
+        localStorage.setItem('time', breaks)
     }
+
+    useEffect(()=>{
+        let storedData = localStorage.getItem('time');
+        setBreak(storedData)
+    },[])
 
 
     return (

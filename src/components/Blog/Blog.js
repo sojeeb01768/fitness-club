@@ -3,7 +3,7 @@ import React from 'react';
 const Blog = () => {
     return (
         <div>
-            <div className=' mx-auto my-5 ms-5 border border-dark rounded border-2 p-3'>
+            <div className=' mx-auto my-5 mx-auto border border-dark rounded border-2 p-3'>
                 <h1>Questions</h1>
                 <h4>1. how does react works ?</h4>
                 <p>Answer: React is a declarative, efficient, and flexible JavaScript library for building user interfaces. 'V' denotes the view in MVC. ReactJS is an open-source, component-based front end library responsible only for the view layer of the application. It is maintained by Facebook.</p>

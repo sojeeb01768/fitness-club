@@ -22,7 +22,7 @@ const Body = () => {
     }
 
     return (
-        <div className=" body-container">
+        <div className="body-container">
 
             <div className="exercise-card-container ">
 
@@ -38,7 +38,7 @@ const Body = () => {
                 }
 
             </div>
-            <div className="profile-container ms-5 text-center p-4 rounded">
+            <div className="profile-container text-center p-4 rounded">
                 <Cart profile={profile}></Cart>
             </div>
             <Blog></Blog>
