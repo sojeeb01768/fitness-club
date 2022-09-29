@@ -10,7 +10,7 @@
     margin: 100px;
 }
 
-.profile-container{
+.profile-container {
     background-color: rgb(223, 221, 221);
     width: 300px;
 }
@@ -21,9 +21,10 @@
         display: grid;
         grid-template-columns: 1fr;
     }
-    .exercise-card-container{
-        
-        grid-template-columns: repeat(1,1fr);
+
+    .exercise-card-container {
+
+        grid-template-columns: repeat(1, 1fr);
     }
 
 }

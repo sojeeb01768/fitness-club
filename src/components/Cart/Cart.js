@@ -9,7 +9,7 @@ import 'react-toastify/dist/ReactToastify.css';
 const notify = () => {
     toast.info("Exercise Completed Successfully", {
         position: "top-center",
-        autoClose: 3000,
+        autoClose: 2000,
         hideProgressBar: false,
         closeOnClick: true,
         pauseOnHover: true,
@@ -20,7 +20,6 @@ const notify = () => {
 }
 const Cart = (props) => {
     const { profile } = props;
-    // console.log(profile);
     let totalBreakTime = 0;
     for (const exercise of profile) {
         totalBreakTime = totalBreakTime + exercise.time;
@@ -34,16 +33,16 @@ const Cart = (props) => {
 
 
     return (
-        <div className='cart pt-5'>
+        <div className='cart pt-0'>
             <p>Selected Items: {profile.length}</p>
             <div className='d-inline-flex gap-2'>
-                <img className='logo' src={logo} alt="" />
-                <h4 className='pt-3'>Md. Sojeeb Islam</h4>
+                <img className="logo" src={logo} alt="" />
+                <h4 className='pt-2'>Sojeeb Islam</h4>
             </div>
             <p className='ps-5'>Dhaka, Bangladesh</p>
             <div className='d-flex bg-light rounded-3 py-2 ps-2 '>
                 <div className='px-3 border border-white  '>
-                    <h5>75kg <br /><small className='text'>Weight</small></h5>
+                    <h5>67 kg <br /><small className='text'>Weight</small></h5>
                 </div>
                 <div className='px-3 border border-white '>
                     <h5>5.9 <br /><small className='text'>Height</small></h5>
