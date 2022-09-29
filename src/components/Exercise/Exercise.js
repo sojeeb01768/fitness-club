@@ -11,7 +11,7 @@ const Exercise = (props) => {
                     <h5 className="card-title">{name}</h5>
                     <p className="card-text">Description:   {description}</p>
                     <p className="card-text">For Age: {age}</p>
-                    <p className="card-text">Time Required: {time}</p>
+                    <p className="card-text">Time Required: {time} m</p>
                     <button onClick={() => handleClick(exercise)} className="btn btn-primary w-100">Add to list</button>
 
                 </div>
