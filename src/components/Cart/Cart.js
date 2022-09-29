@@ -27,17 +27,21 @@ const Cart = (props) => {
 
     const [breaks, setBreak] = useState(0);
     const breakTime = (breaks) => {
-        setBreak(breaks);
-        // addToLocalStorage(breaks); 
+        setBreak(breaks)
+        addToLocalStorage(breaks); 
+    }
+
+    const addToLocalStorage =(breaks) => {
+        localStorage.setItem('BreakTime', breaks)
     }
 
 
     return (
         <div className='cart pt-0'>
             <p>Selected Items: {profile.length}</p>
-            <div className='d-inline-flex gap-2'>
+            <div className='d-flex gap-3'>
                 <img className="logo" src={logo} alt="" />
-                <h4 className='pt-2'>Sojeeb Islam</h4>
+                <h4 className='pt-3'>Sojeeb Islam</h4>
             </div>
             <p className='ps-5'>Dhaka, Bangladesh</p>
             <div className='d-flex bg-light rounded-3 py-2 ps-2 '>
